@@ -5,11 +5,11 @@ public class MainPersona {
         Persona persona1 = new Persona();
         Persona persona2 = new Persona();
 
-        persona1.setNombre("Manuel");
+        persona1.setNombre("Jonathan");
         System.out.println("Nombre: " + persona1.getNombre());
-        persona1.setPrimerApellido("Perez");
+        persona1.setPrimerApellido("Leon");
         System.out.println("Primer Apellido: "  + persona1.getPrimerApellido());
-        persona1.setSegundoApellido("Rodriguez");
+        persona1.setSegundoApellido("Canto");
         System.out.println("Segundo Apellido: " + persona1.getSegundoApellido());
         persona1.setEdad(22);
         System.out.println("Edad: " + persona1.getEdad());
@@ -39,6 +39,10 @@ public class MainPersona {
         persona4.setEdad(20);
         System.out.println("Edad: " + persona4.getEdad());
         System.out.println("¿Es mayor de edad?: " + persona4.esMayorEdad);
-        }
+
+        System.out.println("----------------------------------------------------");
+        persona1.NombreCompleto();
+        persona1.NombreIniciales();
     }
+}
 

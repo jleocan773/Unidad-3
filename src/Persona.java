@@ -49,6 +49,12 @@ public class Persona {
         this.nombre = "Francisco";
         this.primerApellido = "Gómez";
     }
+    public void NombreCompleto(){
+        System.out.println(nombre + " " + primerApellido + " " + segundoApellido);
+    }
+    public void NombreIniciales(){
+        System.out.println(nombre.charAt(0) + " " + primerApellido.charAt(0) + " " + segundoApellido.charAt(0));
+    }
 }
 
 
